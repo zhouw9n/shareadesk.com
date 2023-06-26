@@ -122,7 +122,7 @@ b{
 .banner {
     width: auto;
     height: auto;
-    background:  url('../img/image_banner.jpg');
+    background:  url('image_banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
