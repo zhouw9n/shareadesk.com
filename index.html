@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shareadesk</title>
+    <link rel="icon" type="image/x/icon" href="./img/favicon.ico">
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--Bootstrap Icons Stylesheet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!--Leafletjs Stylesheet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+    <!--Custom Leafletjs Stylesheet-->
+    <link rel="stylesheet" href="./css/leaflet.css">
+    <!--Leafeletjs JavaScript-->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <h1 id="logo">shareadesk</h1>
+        <!--Hamburger Icon-->
+        <div class="hamburger">
+            <div class="line" id="lineTop"></div>
+            <div class="line" id="lineMiddle"></div>
+            <div class="line" id="lineBottom"></div>
+        </div>
+        <!--Navbar and Tab Switchers-->
+        <ul class="navbar">
+            <li class="tab active" data-switcher data-tab="1" id="home_page">HOME</li>
+            <li class="tab" data-switcher data-tab="2" id="about_page">ABOUT</li>
+            <li class="tab" data-switcher data-tab="3" id="faq_page">FAQ</li>
+            <li class="tab" data-switcher data-tab="4" id="contact_page">CONTACT</li>
+            <li class="tab" data-switcher data-tab="5" id="booking_page">BOOK</button>
+        </ul>
+        <!--Menu Dropdown Background-->
+        <div class="dropdown_background"></div>
+    </header>
+
+    <!--Main-->
+    <main class="pages">
+        <!--HOME-->
+        <div class="page active" data-page="1">
+            <div class="banner">
+                <div class="banner_overlay"></div>
+            </div>
+            <!--Slogan animation for large screens-->
+            <div class="text_container_big">
+                <p class="banner_text">Book your desk comfortably from wherever you are...</p>
+            </div>
+            <!--Slogan animation for medium screens-->
+            <div class="text_container_medium">
+                <p class="banner_text medium line1">Book your desk comfortably</p>
+            </div>
+            <div class="text_container_medium">
+                <p class="banner_text medium line2">from wherever you are...</p>
+            </div>
+            <!--Slogan animation for small screens-->
+            <div class="text_container_small">
+                <p class="banner_text small line1">Book your desk</p>
+            </div>
+            <div class="text_container_small">
+                <p class="banner_text small line2">comfortably</p>
+            </div>
+            <div class="text_container_small">
+                <p class="banner_text small line3">from wherever</p>
+            </div>  
+            <div class="text_container_small">
+                <p class="banner_text small line4">you are...</p> 
+            </div>
+            <!--Container "Instructions"-->
+            <div class="container_instructions">
+                <div>
+                    <h2>Need a workspace?</h2>
+                    <p>Our platform offers a seamless and efficient solution for reserving a desk at your preffered workspace, all with just a few clicks. Browse through our available desks and pick the on that suits your needs. Experience the convenience and take control of your workspace today! </p>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <i class="bi bi-search"></i>
+                        <div class="text">
+                            <p>Browse through our available desks and choose the one which suits you best</p>
+                        </div>  
+                    </div>
+                    <div class="card">
+                        <i class="bi bi-input-cursor-text"></i>
+                        <div class="text">
+                            <p>Enter your personal details and select a free time slot</p>
+                        </div>  
+                    </div>
+                    <div class="card">
+                        <i class="bi bi-calendar-week"></i>
+                        <div class="text">
+                            <p>Save the reservation in your calendar and happy working</p>
+                        </div>  
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <!--ABOUT-->
+        <div class="page" data-page="2">
+            <div class="page_header">
+                <p class="page_header_text">ABOUT</p>
+            </div>
+            <div class="container_about">
+                <h2>Our Vision</h2>
+                <p>We at shareadesk want to revolutionize the way people work by providing a dynamic
+                    and flexible workspace reservation platform. We belive that work should not be limited
+                    to a traditional office setting, and our platform aims to empower professionals to work
+                    in an comfortable and collaborative environment.</p>
+                <img class="image" src="./img/image_about.jpg" alt="Image of people working.">
+                <h2>shareadesk</h2>
+                <p>Welcome to shareadesk, your go-to web solution for reserving a desk at your workspace!
+                    We understand that finding a suitable workspace can be a challenging and time-consuming task,
+                    especially in today's fast-paced and dynamic business world. That's why we're here to simplify
+                    the process and make it more convenient for you.</p>
+                <p>Our platform allows you tou reserve a desk at your workspace with just a few clicks from wherever
+                    you are. Wether you're looking for a quiet corner to work on a project or a collaborative space to
+                    brainstorm with your team, we've got you covered. Our user-friendly interface makes it easy to find
+                    and
+                    book a desk that fits your preferences and schedule.</p>
+                <p>At shareadesk, we belive in providing our users with a seamless and hassle-free experience. That's
+                    why
+                    we've incorporated features such as real-time availability, flexible booking options, and automated
+                    payment
+                    processing. You can rest assured that your reservation will be confirmed and your payment will be
+                    processed
+                    securely.</p>
+                <p>We're constantly updating our platform to ensure that you have access to the latest features and
+                    technologies.</p>
+                <p>Thank you for choosing shareadesk as your preferred workspace reservation plattform. We look forward
+                    to
+                    helping you
+                    find your perfect workspace!</p>
+            </div>
+        </div>
+
+        <!--FAQ's-->
+        <div class="page" data-page="3">
+            <div class="page_header">
+                <p class="page_header_text">FAQ</p>
+            </div>
+            <div class="container_faq">
+                <h2>How can I book a workspace?</h2>
+                <p>Booking a workspace is quick and easy. Simply visit the <a id="link_to_booking"><b>BOOK</b></a> section and follow these four simple steps:</p>
+                <ul>
+                    <li><b>Step 1: </b>Search for an available workspace.</li>
+                    <li><b>Step 2: </b>Enter your persanl details and select a free time slot</li>
+                    <li><b>Step 3: </b>Save your reservation in your calendar and happy working!</li>
+                </ul>
+                <h2>How can I view my reservation?</h2>
+                <p>To view your reservation, head over to the <a id="link_to_booking"><b>BOOK</b></a> section and navigate to MANAGE RESERVATIONS. There, you will be able to find all your bookings starting from today and extending up to a year ahead.</p>
+                <h2>How can I cancel my reservation?</h2>
+                <p>Life can sometimes throw unexpected events on our way. If you need to cancel your reservation, don't worry! Just simply go to MANAGE RESERVATIONS and delete your booking. We will refund the entire amount you paid within 3 working days after cancellation.</p>
+                <h2>How can I view my payments?</h2>
+                <p>Want to double-check your payment details? No problem, we provide transparent invoices with a breakdown of all costs. You can find the invoice under MANAGE RESERVATIONS immediately after booking your workspace.</p>
+                <h2>How can I import my reservation into my calendar?</h2>
+                <p>To import your reservation into your preferred calendar, simply download the .ics file during the booking confirmation process or from the MANAGE RESERVATIONS section.</p>
+                <h2>Couldn't find your answer here?</h2>
+                <p>Our friendly support desk is here to assist you further. Please don't hesitate to reach out to us via email or phone. For additional information, please refer to our <a id="link_to_contact"><b>CONTACT</b></a> page.</p>
+            </div>
+        </div>
+
+        <!--CONTACT-->
+        <div class="page" data-page="4">
+            <div class="page_header">
+                <p class="page_header_text">CONTACT</p>
+            </div>
+            <div class="container_contact">
+                <h2>Need help?</h2>
+                <p>Browse through our <a id="link_to_faq"><b>Frequently Asked Questions (FAQ's)</b></a> for answers to commonly asked questions.</p>
+                <p>Cannot find your answer yet? If you are in need of assistance, please do not hesistate to contact our support desk.
+                Our team is available to help you with any issues you may encounter. You can reach our support desk at <a id="mail_support" href="mailto:support@shareadesk.com"><b>support@shareadesk.com</b></a>.
+                </p>
+            </div>
+            <div class="container_map">
+                <div id="map_offices"></div>
+            </div>
+        </div>
+
+        <!--BOOK-->
+        <div class="page" data-page="5">
+            <div class="page_header">
+                <p class="page_header_text">BOOKING</p>
+            </div>
+            <div class="container_booking">
+                <!--Toogle Switch between BOOK and MANAGE RESERVATIONS-->
+                <div id="switch">
+                    <p class="switch_book active" id="book">BOOK</p>
+                    <p class="switch_reservation" id="reservation">MANAGE RESERVATIONS</p>   
+                </div>
+                <div class="switch_color book" id="toggle"></div>
+                <!--Toolbar-->
+                <div class="toolbar active" id="toolbar">
+                    <!--Search Bar-->
+                    <div id="searchbar">
+                        <input type="text" id="search" title="Search by Desk Name" placeholder="Search" autocomplete="off">
+                        <i class="bi bi-search icon_search active" id="icon_search"></i>
+                        <i class="bi bi-x icon_close" id="icon_close"></i>
+                    </div>
+                    <!--Filters-->
+                    <div id="filters">
+                        <!--Selector Location-->
+                        <ul class="selector" id="selection_locations">
+                            <li class="preview" title="Select Location">All Locations
+                            <i class="bi bi-caret-up-fill icon_arrow_loc"></i>
+                            </li>
+                            <li class="selection" id="location1">Rapperswil</li>
+                            <li class="selection" id="location2">St.Gallen</li>
+                        </ul>
+                        <!--Selector Currency-->
+                        <ul class="selector" id="selection_currency">
+                            <li class="preview" title="Select Currency">CHF
+                            <i class="bi bi-caret-up-fill icon_arrow_curr"></i>
+                            </li>
+                            <li class="selection" id="currency">EUR</li>
+                        </ul>
+                        <!--Selector Filter-->
+                        <ul class="selector" id="selection_filter">
+                            <li class="preview" title="Select Filter">All
+                            <i class="bi bi-filter icon_filter"></i>    
+                            </li>
+                            <li class="selection" id="filter1">Available</li>
+                            <li class="selection" id="filter2">Favorites</li>
+                            <li class="selection" id="filter3">Highest Price</li>
+                            <li class="selection" id="filter4">Lowest Price</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Container to display all desks-->
+                <div class="desks active"  id="desks"></div>
+                <!--Container to diplay all my reservations-->
+                <div class="reservations" id="reservations"></div>
+                <!--Container to diplay all pop up windows-->
+                <div class="popups" id="popups"></div>
+            </div>
+        </div>
+    </main>
+
+        <!--Footer-->
+        <footer>
+            <div class="container_left">
+                <ul class="link_list1">
+                    <li class="link" id="link_home">HOME</li>
+                    <li class="link" id="link_about">ABOUT</li>
+                    <li class="link" id="link_book">BOOK</li>
+                </ul>
+            </div>
+            <div class="container_middle">
+                <ul class="link_list2">
+                    <li class="link" id="link_contact">CONTACT</li>
+                    <li class="link" id="link_faq">FAQ</li>
+                </ul>
+            </div>
+            <div class="container_right">
+                <div class="socials">
+                    <a class="bi bi-twitter icon-social" href="https://www.twitter.com/" target="_blank"></a>
+                    <a class="bi bi-facebook icon-social" href="https://www.facebook.com" target="_blank"></a>
+                    <a class="bi bi-instagram icon-social" href="https://www.instagram.com" target="_blank"></a>
+                    <a class="bi bi-linkedin icon-social" href="https://www.linkedin.com" target="_blank"></a>
+                </div>
+                <p class="copyright">Copyright &copy 2023 shareadesk. All rights reserved.</p>
+            </div>
+
+        </footer>
+
+    <!--JavaScript-->
+    <script src="./js/javascript.js"></script>
+   </body>
+</html>

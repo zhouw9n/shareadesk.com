@@ -1,0 +1,106 @@
+/**CUSTOM CSS STYLESHEET FOR LEAFLET MAP (DARKMODE)**/
+
+/*Styling of Map*/
+.container_map {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+#map_offices {
+    filter: saturate(5%) invert(1) brightness(0.8); 
+    width: 100%;
+    height: 500px;
+    
+}
+
+#map_desks {
+    filter: saturate(5%) invert(1) brightness(0.8); 
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container_map{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*Styling of Leaflet popup*/
+div.leaflet-popup-content-wrapper, 
+div.leaflet-popup-tip {
+    background-color: #222222;
+    color: var(--white);
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+div.leaflet-popup-tip {
+    display: none;
+}
+
+/*Styling of content in Leaflet popup*/
+.icon_call {
+    font-size: 12;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+div.leaflet-popup-content h3 {
+    padding-bottom: 10px;
+}
+
+div.leaflet-popup-content p {
+    margin: 4.8px 0px;
+}
+
+div.leaflet-container a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+div.leaflet-container a:hover {
+    text-decoration: underline;
+}
+
+div.leaflet-container a {
+    -webkit-tap-highlight-color: var(--white);
+}
+
+/*Background color removed from links (right bottom corner)*/
+div.leaflet-control-attribution.leaflet-control {
+    background-color: transparent;
+}
+
+/*Text color for links Leaflet and OpenStreetMap (right bottom corner)*/
+div.leaflet-control-attribution.leaflet-control a {
+    color: #222222;
+}
+
+/*Removing flag*/
+svg.leaflet-attribution-flag path {
+    display: none;
+}
+
+/*Zoom in and zoom out controls*/
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: none;
+}
+
+a.leaflet-control-zoom-in,
+a.leaflet-control-zoom-out,
+a.leaflet-control-zoom-out.leaflet-disabled {
+    background-color: #222222;
+    color: var(--white);
+}
+
+a.leaflet-control-zoom-in:hover,
+a.leaflet-control-zoom-out:hover {
+    background-color: var(--white);
+    color: #222222;
+}
