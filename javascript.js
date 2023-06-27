@@ -266,7 +266,7 @@ var mapContact = L.map('map_offices').setView([36.365, 56.157], 2);
 
 // Define custom pin
 var pinIcon = L.icon({
-    iconUrl: './img/pin.jpg',
+    iconUrl: 'pin.jpg',
     iconSize: [30, 30],
     iconAnchor: [15,25]
 });
