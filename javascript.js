@@ -1440,7 +1440,7 @@ function renderMapPopUp(datasetId) {
     var mapDesks = L.map('map_desks').setView([`${lat}`, `${lon}`], 16);
     //Creating pin
     var pinIcon = L.icon({
-        iconUrl: './img/pin.jpg',
+        iconUrl: 'pin.jpg',
         iconSize: [30, 30],
         iconAnchor: [15,25]
     });
