@@ -2307,7 +2307,7 @@ async function getAllDesks() {
     };
 
     try {
-        const response = await fetch('https://matthiasbaldauf.com/wbdg23/desks', requestOptions);
+        const response = await fetch('https://matthiasbaldauf.com/wbdg24/desks', requestOptions);
         const data = await response.json();
         return data;
     } catch (error) {
@@ -2324,7 +2324,7 @@ async function postBooking(formData) {
     }
     //FETCH
     try {
-        const response = await fetch('https://matthiasbaldauf.com/wbdg23/booking', requestOptions);
+        const response = await fetch('https://matthiasbaldauf.com/wbdg24/booking', requestOptions);
         const data = await response.json();
         return data; //Returning converted price
     } catch (error) {
@@ -2342,7 +2342,7 @@ async function deleteBooking(bookingReferenceId) {
     }
     //FETCH
     try {
-        const response = await fetch('https://matthiasbaldauf.com/wbdg23/booking?id=' + `${bookingReferenceId}` + '&studid=' + `${studentId}`, requestOptions);
+        const response = await fetch('https://matthiasbaldauf.com/wbdg24/booking?id=' + `${bookingReferenceId}` + '&studid=' + `${studentId}`, requestOptions);
         const data = await response.json();
     } catch (error) {
         console.log(error);
@@ -2362,7 +2362,7 @@ async function getAllReservations(deskId) {
 
     //FETCH
     try {
-        const response = await fetch('https://matthiasbaldauf.com/wbdg23/bookings?deskid=' + `${deskId}` + '&start=' + `${start}` + '&end=' + `${end}` + '&studid=' + `${studentId}`, requestOptions);
+        const response = await fetch('https://matthiasbaldauf.com/wbdg24/bookings?deskid=' + `${deskId}` + '&start=' + `${start}` + '&end=' + `${end}` + '&studid=' + `${studentId}`, requestOptions);
         const data = await response.json();
         //Return data
         return data;
