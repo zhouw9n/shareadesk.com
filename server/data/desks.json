@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "name": "SG5-1",
+        "available": "1",
+        "address": "Poststrasse 30, St.Gallen",
+        "price": "5.5",
+        "lat": "47.4240",
+        "lon": "9.3707",
+        "comment": "2 Screens"
+    },
+    {
+        "id": "2",
+        "name": "SG5-2",
+        "available": "1",
+        "address": "Poststrasse 30, St.Gallen",
+        "price": "4.5",
+        "lat": "47.4240",
+        "lon": "9.3708",
+        "comment": "1 Screen"
+    },
+    {
+        "id": "3",
+        "name": "SG5-3",
+        "available": "0",
+        "address": "Poststrasse 30, St.Gallen",
+        "price": "5.2",
+        "lat": "47.4241",
+        "lon": "9.3706",
+        "comment": "2 Screens"
+    },
+    {
+        "id": "4",
+        "name": "SG5-4",
+        "available": "1",
+        "address": "Poststrasse 30, St.Gallen",
+        "price": "5.2",
+        "lat": "47.4241",
+        "lon": "9.3707",
+        "comment": "2 Screens"
+    },
+    {
+        "id": "5",
+        "name": "SG5-5",
+        "available": "1",
+        "address": "Poststrasse 30, St.Gallen",
+        "price": "4.0",
+        "lat": "47.4240",
+        "lon": "9.3706",
+        "comment": "1 Screen"
+    },
+    {
+        "id": "6",
+        "name": "ZH3-1",
+        "available": "1",
+        "address": "Europaallee 8, Zurich",
+        "price": "4.5",
+        "lat": "47.3789",
+        "lon": "8.5334",
+        "comment": "1 Screen"
+    },
+    {
+        "id": "7",
+        "name": "ZH3-2",
+        "available": "1",
+        "address": "Europaallee 8, Zurich",
+        "price": "6.0",
+        "lat": "47.3788",
+        "lon": "8.5335",
+        "comment": "2 Screens"
+    },
+    {
+        "id": "8",
+        "name": "ZH3-3",
+        "available": "1",
+        "address": "Europaallee 8, Zurich",
+        "price": "5.2",
+        "lat": "47.3790",
+        "lon": "8.5333",
+        "comment": "2 Screens"
+    },
+    {
+        "id": "9",
+        "name": "ZH3-4",
+        "available": "0",
+        "address": "Europaallee 8, Zurich",
+        "price": "5.5",
+        "lat": "47.3788",
+        "lon": "8.5333",
+        "comment": "2 Screens"
+    },
+    {
+        "id": "10",
+        "name": "ZH3-5",
+        "available": "1",
+        "address": "Europaallee 8, Zurich",
+        "price": "4.9",
+        "lat": "47.3787",
+        "lon": "8.5334",
+        "comment": "1 Screen"
+    },
+    {
+        "id": "11",
+        "name": "ZH3-6",
+        "available": "1",
+        "address": "Europaallee 8, Zurich",
+        "price": "4.9",
+        "lat": "47.3787",
+        "lon": "8.5335",
+        "comment": "1 Screen"
+    },
+    {
+        "id": "12",
+        "name": "ZH3-7",
+        "available": "0",
+        "address": "Europaallee 8, Zurich",
+        "price": "5.2",
+        "lat": "47.3788",
+        "lon": "8.5336",
+        "comment": "2 Screens"
+    }
+]
