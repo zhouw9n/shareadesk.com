@@ -2,7 +2,7 @@
 
 **shareadesk** is a web app developed as part of my semester assignment in web development. It simulates a modern desk-sharing platform that allows users to search, book, and manage shared desks in a collaborative workspace. The application includes interactive features such as map-based desk visualization, calendar integration, and currency conversion to enhance usability for international users.
 
-🌐 **Live Demo**: [shareadesk](https://zhouw9n.github.io/shareadesk.com/)
+🌐 **Live Demo**: [shareadesk](https://zhouw9n.github.io/shareadesk/)
 
 > ⚠️ **Note**: The backend server is hosted on Render’s free tier and may take **30–60 seconds to spin up** if inactive.
 Thank you for your patience!
